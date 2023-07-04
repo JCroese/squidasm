@@ -108,6 +108,7 @@ if __name__ == "__main__":
         stack1="client",
         stack2="server",
         typ="perfect",
+        cfg=None
     )
 
     cfg = StackNetworkConfig(stacks=[client_stack, server_stack], links=[link])

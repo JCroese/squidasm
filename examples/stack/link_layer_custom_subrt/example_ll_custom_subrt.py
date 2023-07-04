@@ -199,7 +199,7 @@ if __name__ == "__main__":
         qdevice_typ="nv",
         qdevice_cfg=NVQDeviceConfig.perfect_config(),
     )
-    link = LinkConfig(stack1=client.name, stack2=server.name, typ="perfect")
+    link = LinkConfig(stack1=client.name, stack2=server.name, typ="perfect", cfg=None)
 
     cfg = StackNetworkConfig(stacks=[client, server], links=[link])
 

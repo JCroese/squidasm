@@ -122,6 +122,7 @@ if __name__ == "__main__":
         stack1="sender",
         stack2="receiver",
         typ="perfect",
+        cfg=None
     )
 
     cfg = StackNetworkConfig(stacks=[sender_stack, receiver_stack], links=[link])

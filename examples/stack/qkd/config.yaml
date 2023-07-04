@@ -12,3 +12,4 @@ links:
   - stack1: alice
     stack2: bob
     typ: perfect
+    cfg: None
